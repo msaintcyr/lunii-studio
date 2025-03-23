@@ -1,6 +1,24 @@
-.idea
+# Répertoire IntelliJ IDEA
+.idea/
 *.iml
-*node_modules
-*target
-web-ui/javascript/build
+
+# Répertoires de build Java
+/target/
+**/target/
+
+# Node.js (si jamais utilisé)
+node_modules/
+
+# Fichiers générés par les outils JS du projet web-ui
+web-ui/javascript/build/
 web-ui/javascript/report.*.json
+
+# Fichiers système macOS
+.DS_Store
+
+# Fichiers temporaires et logs
+*.log
+*.tmp
+
+# Backup files
+*~
